@@ -12,16 +12,15 @@ class AddEmployeeScreen extends StatefulWidget {
 }
 
 class _AddEmployeeScreenState extends State<AddEmployeeScreen> {
+
   TextEditingController nameController = TextEditingController();
   TextEditingController addressController = TextEditingController();
-
   TextEditingController dobController = TextEditingController();
-
   TextEditingController emailController = TextEditingController();
-
   TextEditingController phoneController = TextEditingController();
   TextEditingController genderController = TextEditingController();
   TextEditingController cityController = TextEditingController();
+
   final formKey = GlobalKey<FormState>();
   bool isLoading = false;
 
